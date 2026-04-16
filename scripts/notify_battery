@@ -1,0 +1,4 @@
+#!/bin/bash
+BAT=$(cat /sys/class/power_supply/BAT1/capacity)
+STATUS=$(cat /sys/class/power_supply/BAT1/status)
+notify-send.sh -t 1000 "Battery" "$BAT%: $STATUS" -h string:x-canonical-private-synchronous:battery

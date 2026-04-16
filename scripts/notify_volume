@@ -1,0 +1,3 @@
+#!/bin/bash
+VOL=$(wpctl get-volume @DEFAULT_SINK@)
+notify-send.sh -t 500 "pipewire" "$VOL" -h string:x-canonical-private-synchronous:volume

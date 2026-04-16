@@ -1,0 +1,3 @@
+#!/bin/bash
+TIME=$(date)
+notify-send.sh -t 10000 "$TIME" -h string:x-canonical-private-synchronous:time
