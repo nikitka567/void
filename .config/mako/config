@@ -1,0 +1,17 @@
+max-history=1
+font=JetBrainsMono Nerd Font
+format=<b>⏵</b> %s %b
+layer=overlay
+anchor=bottom-center
+background-color=#2e3440
+width=400
+height=110
+margin=5
+padding=0,5,10
+border-size=2
+border-color=#eeff77
+border-radius=15
+icons=0
+max-icon-size=64
+default-timeout=5000
+ignore-timeout=1
